@@ -1,0 +1,183 @@
+body{
+  margin: 0 auto;
+  padding:0;
+  font-family: sans-serif;
+  font-size: 16px;
+  background:#3c3c3b;
+  color:#1446A0;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+/* ------------------------------------------*/
+/* --------navigation section style----------*/
+/* ------------------------------------------*/
+.navbar-default{
+  background: #ebebd3;
+  color:#1446A0 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-default .navbar-brand {
+  color:#1446A0;
+  font-size: 1.8em;
+  font-weight:900;
+  transition: 1s all ease-in;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+  color:#1446A0 !important;
+  font-size: 1.2em;
+  font-weight:200;
+  transition: 1s all ease-in;
+  padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-text:hover{
+  border-bottom: 2px solid #1446A0;
+}
+.navbar-default .navbar-toggle {
+  background:#1446A0;
+  border:none;
+  transition: 2s all ease-in-out;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background:#3c3c3b;
+
+}
+.navbar-default .navbar-toggle .icon-bar{
+  color:white;
+  background:#f5d857;
+}
+
+/* ------------------------------------------*/
+/* --------slider section style----------*/
+/* ------------------------------------------*/
+.welcomesection{
+  position: relative;
+}
+
+@media (min-width:470px) {
+  .welcomesection .carousel-caption{
+    /*background:rgba(235, 235, 211, 0.8); */
+    position: absolute;
+    top:30%;
+  }
+
+  .welcomesection .carousel-caption h1{
+    font-size: 5em;
+    color:#1446A0;
+    font-weight: 600;
+
+  }
+
+  .welcomesection .carousel-caption p{
+    font-size: 1.8em;
+  }
+
+}
+
+
+
+/* ------------------------------------------*/
+/* --------rules and regulation section style----------*/
+/* ------------------------------------------*/
+.rules{
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+}
+.rules h1{
+    color:#ebebd3;
+    padding-top:10%;
+}
+
+.rules .panel-rules .panel-heading{
+  border-bottom:2px solid #ece9d8;
+  background:  #ece9d8;
+  text-align: center;
+}
+
+.rules .panel-rules .panel-title {
+  font-size: 2em;
+  font-weight:500;
+  color:#3c3c3b;
+}
+
+
+.rules .panel-rules .panel-body{
+  list-style-type: square;
+}
+.rules .panel-rules .panel-footer{
+  background:white;
+  border-top:2px solid #ece9d8;
+  color:#3c3c3b;
+  background:  #ece9d8;
+}
+.rules ul{
+  padding-left:20px;
+}
+
+/* ------------------------------------------*/
+/* --------word section style----------*/
+/* ------------------------------------------*/
+
+.word{
+  height:100%;
+  padding-top:3%;
+  padding-bottom:5%;
+  background: white;
+}
+
+.word .caption h3{
+  text-align: center;
+  color:#f5d857;
+
+}
+
+.word .caption p{
+
+}
+
+
+.word .thumbnail{
+  background: #ece9d8 !important;
+}
+
+
+
+
+
+/* ------------------------------------------*/
+/* --------footer section style----------*/
+/* ------------------------------------------*/
+footer{
+  padding-top:7%;
+  background:#ece9d8;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+
+footer .footerpix{
+  padding-bottom: 2%;
+  position: relative;
+}
+
+footer .footerpix h1{
+  position:absolute;
+  top:10%;
+  color:white;
+}
+
+footer .copyright{
+  background:white; 
+}
